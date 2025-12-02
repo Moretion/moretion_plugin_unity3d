@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Moretion/InertiaCapture/Scenes/MotionTransformsScene.unity
+    guid: 75a1e5f44550ad94ea1b60c65061e46a
+  - enabled: 0
+    path: Assets/Moretion/InertiaCapture/Scenes/MotionAnimatorScene.unity
+    guid: c5521cb3e7c293b42851252053382189
+  - enabled: 0
+    path: Assets/Moretion/InertiaCapture/Scenes/MotionHandScene.unity
+    guid: a6da52771fa445347b529094a5dfd519
+  - enabled: 0
+    path: Assets/Moretion/InertiaCapture/Scenes/MotionGestureRecognitionScene.unity
+    guid: 4c485d4d5ee134a4781b4c80519a4064
+  - enabled: 1
+    path: Assets/Test/UniversalTestModel.unity
+    guid: 621e369a0dc641a40ba6578cc953a4a9
+  m_configObjects: {}
