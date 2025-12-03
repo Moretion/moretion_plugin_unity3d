@@ -254,7 +254,7 @@ Assets
 
 
 
-## 7. 如何驱动MotionStudio多角色？
+## 7. 如何驱动MS多角色动捕数据？
 7.1 将MotionSourceManager.cs中变量MotionInstances[]数量设置为MS中角色数量
 
 <p align="center">
@@ -278,10 +278,28 @@ Assets
   <img src="https://github.com/Moretion/moretion_plugin_unity3d/blob/main/Images/actorSetting4.png" alt="提示图" width="500"/>
 </p>
 
+## 8. 如何自定义模型驱动动捕数据？
 
-## 8. 常见问题
+### 8.1 模型下载
+以unity商店免费模型“unity-chan”举例
+链接：https://assetstore.unity.com/packages/3d/characters/unity-chan-model-18705
 
-### 8.1 手势识别打包后程序运行闪退
+<p align="center">
+  <img src="https://github.com/Moretion/moretion_plugin_unity3d/blob/main/Images/chan.png" alt="提示图" width="500"/>
+</p>
+### 8.2 驱动新模型
+打开MotionTransformsScene场景将模型“unitychan”拖入到Hierachy面板并添加脚本MotionTransformsInstance脚本。
+MotionTransformsInstance脚本相关骨骼赋值，也可在此脚本下面点击“bind”按钮进行快速赋值（前提是此模型有Animator组件并且Avatar组件已赋值）。
+在Hierachy面板将MotionRobot1隐藏，选中MotionDriver物体将MotionSourceManager脚本中MotionInstances中的值替换为unitychan物体的值。
+最后在unity中点击运行（默认已进行相关配置），此时unitychan模型的各个骨骼姿态和MS中机器人姿态一致。
+
+<p align="center">
+  <img src="https://github.com/Moretion/moretion_plugin_unity3d/blob/main/Images/config.png" alt="提示图" width="500"/>
+</p>
+
+## 9. 常见问题
+
+### 9.1 手势识别打包后程序运行闪退
 打包后将工程中Motion_RecognizeHG.dll和model文件夹拷贝至xxx.exe同一级目录
 <p align="center">
   <img src="https://github.com/Moretion/moretion_plugin_unity3d/blob/main/Images/gesture1.png" alt="提示图" width="500"/>
