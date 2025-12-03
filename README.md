@@ -287,6 +287,7 @@ Assets
 <p align="center">
   <img src="https://github.com/Moretion/moretion_plugin_unity3d/blob/main/Images/chan.png" alt="提示图" width="500"/>
 </p>
+
 ### 8.2 驱动新模型
 打开MotionTransformsScene场景将模型“unitychan”拖入到Hierachy面板并添加脚本MotionTransformsInstance脚本。
 MotionTransformsInstance脚本相关骨骼赋值，也可在此脚本下面点击“bind”按钮进行快速赋值（前提是此模型有Animator组件并且Avatar组件已赋值）。
