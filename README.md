@@ -294,7 +294,7 @@ MotionTransformsInstance脚本相关骨骼赋值，也可在此脚本下面点�
 最后在unity中点击运行（默认已进行相关配置），此时unitychan模型的各个骨骼姿态和MS中机器人姿态一致。
 
 <p align="center">
-  <img src="https://github.com/Moretion/moretion_plugin_unity3d/blob/main/Images/config.png" alt="提示图" width="500"/>
+  <img src="https://github.com/Moretion/moretion_plugin_unity3d/blob/main/Images/config1.png" alt="提示图" width="500"/>
 </p>
 
 ## 9. 常见问题
