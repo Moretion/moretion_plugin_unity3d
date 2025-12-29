@@ -68,7 +68,7 @@ Assets
 │    │         │——MotionTransformsInstance.cs             [Transform方式驱动模型实例]
 │    │         │——ServerInteraction.cs                    [和MS服务端网络接口交互（可忽略）]
 │    │
-│    │—— InertiaCapture                                   [通用脚本]
+│    │—— Utilities                                        [通用脚本]
 │    │
 ```
 
